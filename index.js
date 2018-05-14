@@ -7,15 +7,15 @@ function preserveDecimal(n){
 }
 
 function makeInt(n){
-  return parseInt(n)
+  return parseInt(n, 10)
 }
 
 function dec(n){
-  return n--
+  return --n
 }
 
 function inc(n){
-  return n++
+  return ++n
 }
 
 function divide(a,b){
